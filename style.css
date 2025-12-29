@@ -1,200 +1,280 @@
-/* Common Styling */
+/* Common Css */
 *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-/* Nav TAG Styling */
+/* Nav Tag */
 nav{
-    position:sticky;
-    border: 1px;
-    background-color: #FFFFFF;
-    filter: blur(6);
-    height: 220px;
-    width: 360px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    padding: 2px 20px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
 }
-/*thrust_logo Class Under Nav TAG */
-.thrust_logo{
+/* logo1 Class */
+.logo1{
+    padding: 20px 18px;
+    height: 20px;
+    float: left;
+}
+/* For Nav Tag under ul */
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+/* In Nav Tag Under head1 Class */
+.head1{
     display: flex;
     justify-content: baseline;
-    padding-top: 45px;
-    margin-top: 45px;
+    margin: 35px;
+    padding: 35px;
 }
-/*thrust_logo Class img TAG  */
-.thrust_logo img{
-    margin-top: 9.21px;
-    margin-right: 10px;
-    padding-left: 10px;
-}
-/*nav-menu Class */
-.nav-menu{
-    margin-left: 40px;
-    padding-left: 40px;
-}
-/* nav-menu Class under ul TAG */
-.nav-menu ul{
-    width: 695px;
+/* In Nav Tag Under head1 Class under ul*/
+.head1 ul{
+    width: 610px;
     height: 94px;
-    border-radius: 100px;
-    border: 1px;
-    padding: 5px;
-    display: flex;
-    justify-content: baseline;
-    text-decoration: none;
-    background-color: #08070A;
-} 
-/*nav-menu Class Under ul TAG under li tag  */
-.nav-menu ul li{
-    margin: 12px;
-    padding: 12px;
+    line-height: 80px;
     color: #FFFFFF;
-    border: 1px;
-    font: 500;
-    font-size: medium;
-    border-radius: 100px;
-    background-color: #19181D;
     text-decoration: none;
-    display: flex;
-    justify-content: space-between;
-}
-/* Class nav-menu1 */
-.nav-menu1{
-    margin-left: 15px;
-}
-/* Class nav-menu1 under ul TAG */
-.nav-menu1 ul{
-    width: 250px;
-    height: 64px;
-    margin: 12px;
-    padding: 12px;
-    border: 3px solid #FF3800;
+    border: 1px;
     border-radius: 100px;
-    background-color: #000000;
-    display: flex;
-    justify-content: space-between;
-    color: #FFFFFF;
-}
-/* Class nav-menu1 under ul li TAG */
-.nav-menu1 ul li{
-    display: flex;
-    justify-content: baseline;
-}
-/* Class main_Content*/
-.main_content{
-    margin-top: -80px;
-    position: relative;
-    width: 1400px;
-    height: 1200px;
-    background-color: #000000;
-    display: flex;
-    justify-content: space-between;
-}
-/* Class d2c Image in MIddle Item Section */
-.d2c img{
-    margin-top: 266px;
-    margin-left: 99px;
-    height: 601px;
-    width: 757px;
-}
-/* Class d2c1 in MIddle Item Section */
-.d2c1{
-    height: 165px;
-    width: 596.29px;
-    margin: 60px;
-    padding: 60px;
-}
-/* Class d2c3 in MIddle Item Section */
-.d2c3{
-    display: flex;
-    justify-content:space-between;
     background: #000000;
 }
-/* Formate image_01 and her animation */
+/* In Nav Tag Under head1 Class under ul li */
+.head1 ul li{
+    margin: 10px;
+    padding: 10px;
+    border: 3px;
+    font: 600;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 100px;
+    background-color: #19181D;
+    
+}
+/* In nav-menu1 Class */
+.nav-menu1{
+    margin-top: -150px;
+    margin-left: 1330px;
+}
+/* In nav-menu1 Class under ul*/
+.nav-menu1 ul{
+    height: 70px;
+    width: 220px;
+    color: #FFFFFF;
+    line-height: 30px;
+    border: 3px solid #FF3800;
+    border-radius: 100px;
+    background: #000000;
+}
+/* In nav-menu1 Class under p tag*/
+.nav-menu1 p{
+    text-align: justify;
+    font-weight: 400;
+    font-size: small;
+    line-height: 50px;
+}
+/* In Class how_to_scale under p tag */
+.how_to_scale p{
+    text-align: justify;
+    font-weight: 400;
+    font-size: small;
+    line-height: 70px;
+}
+/* In nav-menu1 under ul tag under img tag */
+.nav-menu1 ul img{
+    padding: 20px 18px;
+    height: 30px;
+    float: left;
+}
+/* In nav-menu1 .show_us Class */
+.nav-menu1 .show_us{
+    margin: 10px;
+    font-size: large;
+}
+/* In main_content Class */
+.main_content{
+    margin-top: 170px;
+    padding-top: 170px;
+    height: 100%;
+    width: 1450px;
+    background: #000000;
+}
+/* In main_content Class under ul*/
+.main_content1 ul{
+    margin-top: -50px;
+    margin-left: 100px;
+}
+/* In d2c class and img Tag */
+.d2c img{
+    height: 300px;
+    width: 700px;
+}
+/* In d2c1 class and img Tag */
+.d2c1 img{
+    height: 113px;
+    width: 357px;
+}
+/* In d2c class and img Tag hover*/
+.d2c1 img:hover{
+    color: #FFFFFF;
+    cursor: pointer;
+    background: #FF3800;
+}
+/* In d2c1 class and img Tag */
+.d2c2 img{
+    height: 200px;
+    width: 550px;
+}
+/* In d2c3 Class */
+.d2c3{
+    margin-left: 970px;
+    background: #000000;
+}
+/* In d2c3 class and ul Tag */
+.d2c3 ul{
+    display: flex;
+    justify-content:baseline;
+}
+/* In d2c3 class and ul Tag under li tag*/
+.d2c3 ul li{
+    margin-top: -720px;
+}
+/* In d2c3 class li tag under image_01 class Animation*/
 .d2c3 li .image_01{
    margin: 2px;
    padding: 2px;
-   margin-top: 70px;
-   height: 250px;
+   height: 150px;
    width: 150px;
-   position: relative;
-   animation: moveUpDown 3s ease-in-out infinite; 
+   animation:  filmMove 10s linear infinite;
+   flex-direction: column translatey;
 }
-/* delay for smooth effect */
-.image_01{
-    animation-delay: 1s;
+/* Animation move to */
+ @keyframes filmMove {
+  from {
+    transform: translatey(-0);
+  }
+  to {
+    transform: translatey(-400%);
+  }
 }
-/* Vertical Movement */
-@keyframes moveUpDown{
-    0%{
-        transform: translateY(10);
-    }
-    50%{
-        transform: translateY(-50px);
-    }
-    100%{
-        transform: translateY(10);
-    }
-}
-/* Formate image_02 and her animation */
+/* In d2c3 class li tag under image_02 class Animation*/
 .d2c3 li .image_02{
    margin: 2px;
    padding: 2px;
-   margin-top: -10px;
    height: 140px;
    width: 140px;
-   position: sticky;
-   animation: moveUpDown 3.5s ease-in-out infinite; 
+   animation:  filmMove 9s linear infinite;
+   flex-direction: column translatey;
 }
-/* delay for smooth effect */
-.image_02{
-    animation-delay: 1.5s;
+/* Animation move to */
+ @keyframes filmMove {
+  from {
+    transform: translatey(-0);
+  }
+  to {
+    transform: translatey(-300%);
+  }
 }
-/* Vertical Movement */
-@keyframes moveUpDown{
-    0%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(-50px);
-    }
-    100%{
-        transform: translateY(0);
-    }
-}
-/* Formate image_03 and her animation */
+/* In d2c3 class li tag under image_03 class Animation*/
 .d2c3 li .image_03{
    margin: 2px;
    padding: 2px;
-   margin-top: 70px;
-   height: 230px;
+   height: 130px;
    width: 130px;
-   animation: moveUpDown 4s ease-in-out infinite; 
+   animation:  filmMove 8s linear infinite;
+   flex-direction: column translatey;
 }
-/* delay for smooth effect */
-.image_03{
-    animation-delay: 2s;
+/* Animation move to */
+ @keyframes filmMove {
+  from {
+    transform: translatey(-0);
+  }
+  to {
+    transform: translatey(-350%);
+  }
 }
-/* Vertical Movement */
-@keyframes moveUpDown{
-    0%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(-60px);
-    }
-    100%{
-        transform: translateY(0);
-    }
+/* In main_content2 class under .frame class under img tag */
+.main_content2 .frame img{
+    margin-top: 70px;
+    width: 1114px;
+    height: 241px;
+    margin-left: 200px;
+    gap: 60px;
 }
-/* For Lower Middle Item */
-.d2c4{
-    margin: 40px;
-    padding: 40px;
+/* In main_content2 class under .frame1 class under img tag */
+.main_content2 .frame1 img{
+    margin-left: 1102.17px;
+    margin-top: 192.39px;
+    height: 168.08px;
+    width: 205.13px;
+    rotate: -17.13";
 }
-/* For Lower Middle Item */
-.main_content2 img{
-   height: 1261px;
-   width: 1760px;
-   top: 1470px;
-   left: 80px;
+/* In main_content2 class under .frame3 class under img tag */
+.main_content2 .frame3 img{
+    height: 189px;
+    width: 1760px;
+    border-radius: 10px;
+    color: #F9F9F9;
+}
+/* Hide and Seek */
+.frame3:hover .raucket_launch2{
+    opacity: 1;
+    visibility: visible;
+    height: 70px;
+    width: 250px;
+    color: #2c0461;
+    border: 5px solid #FF3800;
+    cursor: pointer;
+    border-radius: 100px;
+    background: #FF3800;
+    
+}
+/* In raucket_launch2 Class  */
+.raucket_launch2{
+    position: relative;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+    margin-left: 70px;
+}
+/* In raucket_launch2 under ul tag */
+.raucket_launch2 ul{
+    display: flex;
+    justify-content: baseline;
+    height: 70px;
+    width: 250px;
+    color: #FFFFFF;
+    line-height: 60px;
+    border: 3px solid #FF3800;
+    text-decoration: none;
+    border-radius: 100px;
+    background: #000000;
+}
+/* In main_content2 Class under .raucket_launch2 Class under ul tag under li tag */
+.main_content2 .raucket_launch2 ul li{
+    display: flex;
+    justify-content: baseline;
+    font-size: medium;
+    text-align: justify;
+    text-decoration: none;
+    line-height: 60px;
+}
+/* In main_content2 Class under .raucket_launch2 Class under ul tag under li tag under img tag */
+.main_content2 .raucket_launch2 ul li img{
+    height: 40px;
+    width: 80px;
+    padding: 8px;
+    color: #F9F9F9;
+}
+/* In Class .main_content2 under Class .raucket_launch2 Under  ul Tag  li tag  p  */
+.main_content2 .raucket_launch2 ul li p{
+    margin: 5px;
 }
